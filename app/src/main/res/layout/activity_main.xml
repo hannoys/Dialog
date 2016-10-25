@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.gdmec.a07150817.dialog.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/charactor"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字符选择对话框"
+        android:id="@+id/charactorpickerdialog"
+        android:layout_gravity="center_horizontal"
+        android:onClick="charactorpickerdialog"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/uidate"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期选择对话框"
+        android:id="@+id/uidatepickerdialog"
+        android:layout_gravity="center_horizontal"
+        android:onClick="uidatepickerdialog"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/uitime"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间对话框"
+        android:id="@+id/uitimepickerdialog"
+        android:layout_gravity="center_horizontal"
+        android:onClick="uitimepickerdialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度对话框"
+        android:id="@+id/progessdialog"
+        android:layout_gravity="center_horizontal"
+        android:onClick="progessdialog"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/charactorE"
+        android:layout_gravity="center_horizontal"
+        android:text="字符选择" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uidateE"
+        android:layout_gravity="center_horizontal"
+        android:text="日期选择对话" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uitimeE"
+        android:layout_gravity="center_horizontal"
+        android:text="时间选择框" />
+</LinearLayout>
